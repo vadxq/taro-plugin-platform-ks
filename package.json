@@ -1,0 +1,38 @@
+{
+  "name": "taro-plugin-platform-ks",
+  "version": "0.1.0",
+  "description": "快手小程序平台插件",
+  "author": "vadxq",
+  "homepage": "https://github.com/vadxq/taro-plugin-platform-ks#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "keywords": [
+    "taro"
+  ],
+  "files": [
+    "index.js",
+    "dist",
+    "types"
+  ],
+  "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadxq/taro-plugin-platform-ks.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "bugs": {
+    "url": "https://github.com/vadxq/taro-plugin-platform-ks/issues"
+  },
+  "dependencies": {
+    "@tarojs/service": "^3.2.2",
+    "@tarojs/shared": "^3.2.2"
+  },
+  "devDependencies": {
+    "rollup": "^2.45.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.4"
+  }
+}
