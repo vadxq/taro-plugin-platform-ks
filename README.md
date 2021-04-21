@@ -22,3 +22,21 @@ tarojs 快手小程序平台插件
 ├── package.json
 └── README.md
 ```
+
+## 引入流程
+
+```bash
+npm i taro-plugin-platform-ks -D
+# or
+yarn add taro-plugin-platform-ks -D
+```
+
+```javascript
+const config = {
+  plugins: [
+    'taro-plugin-platform-ks'
+  ]
+}
+```
+
+记得在根目录添加`project.ks.json`配置

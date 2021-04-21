@@ -4,7 +4,7 @@
   "description": "快手小程序平台插件",
   "author": "vadxq",
   "homepage": "https://github.com/vadxq/taro-plugin-platform-ks#readme",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "main": "index.js",
   "keywords": [
     "taro"
