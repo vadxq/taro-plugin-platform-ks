@@ -39,4 +39,23 @@ const config = {
 }
 ```
 
+```bash
+# 编译
+# 打包
+taro build --type ks
+# 开发环境
+taro build --type ks --watch
+```
+
 记得在根目录添加`project.ks.json`配置
+
+```javascript
+// 平台判断
+if (process.TARO_ENV === 'ks') {
+  // ...
+}
+```
+
+## 目前问题：（截止2021-04-21）
+
+官方会把template编译成span，所以会出现社区里有人出现swiper等失效的问题。这个问题已经反馈给了官方，等待处理。
