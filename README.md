@@ -1,6 +1,10 @@
 # taro-plugin-platform-ks
 
-tarojs 快手小程序平台插件
+[![](https://img.shields.io/npm/v/taro-plugin-platform-ks.svg?style=flat-square)](https://www.npmjs.com/package/taro-plugin-platform-ks)
+[![](https://img.shields.io/npm/l/taro-plugin-platform-ks.svg?style=flat-square)](https://www.npmjs.com/package/taro-plugin-platform-ks)
+[![](https://img.shields.io/npm/dt/taro-plugin-platform-ks.svg?style=flat-square)](https://www.npmjs.com/package/taro-plugin-platform-ks)
+
+> tarojs 快手小程序平台插件
 
 ## 目录
 
