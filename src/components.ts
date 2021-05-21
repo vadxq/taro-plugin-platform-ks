@@ -32,5 +32,20 @@ export const components = {
     fixed: '',
     type: singleQuote('banner'),
     scale: '100'
+  },
+  Swiper: {
+    'indicator-dots': 'false',
+    'indicator-color': singleQuote('rgba(0, 0, 0, .3)'),
+    'indicator-active-color': singleQuote('#000'),
+    autoplay: 'false',
+    current: '0',
+    interval: '5000',
+    duration: '500',
+    circular: 'false',
+    vertical: 'false',
+    'easing-function': singleQuote('default'),
+    bindchange: '',
+    bindtransition: '',
+    bindanimationfinish: ''
   }
 }

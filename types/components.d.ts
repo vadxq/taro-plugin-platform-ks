@@ -30,4 +30,19 @@ export declare const components: {
         type: string;
         scale: string;
     };
+    Swiper: {
+        'indicator-dots': string;
+        'indicator-color': string;
+        'indicator-active-color': string;
+        autoplay: string;
+        current: string;
+        interval: string;
+        duration: string;
+        circular: string;
+        vertical: string;
+        'easing-function': string;
+        bindchange: string;
+        bindtransition: string;
+        bindanimationfinish: string;
+    };
 };
