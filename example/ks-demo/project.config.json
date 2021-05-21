@@ -1,0 +1,13 @@
+{
+    "miniprogramRoot": "./dist",
+    "projectname": "ks-demo",
+    "description": "ks-demo",
+    "appid": "ks223232323232323",
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "postcss": false,
+        "minified": false
+    },
+    "compileType": "miniprogram"
+}
