@@ -1,10 +1,10 @@
-# taro-plugin-platform-ks
+# taro-plugin-platform-ks@1.2.0
 
 [![](https://img.shields.io/npm/v/taro-plugin-platform-ks.svg?style=flat-square)](https://www.npmjs.com/package/taro-plugin-platform-ks)
 [![](https://img.shields.io/npm/l/taro-plugin-platform-ks.svg?style=flat-square)](https://www.npmjs.com/package/taro-plugin-platform-ks)
 [![](https://img.shields.io/npm/dt/taro-plugin-platform-ks.svg?style=flat-square)](https://www.npmjs.com/package/taro-plugin-platform-ks)
 
-> tarojs 快手小程序平台插件
+> tarojs 快手小程序平台插件 1.2.x 适用tarojs v3.2.x版本
 
 ## 目录
 
@@ -30,9 +30,9 @@
 ## 引入流程
 
 ```bash
-npm i taro-plugin-platform-ks -D
+npm i taro-plugin-platform-ks@1.2.0 -D
 # or
-yarn add taro-plugin-platform-ks -D
+yarn add taro-plugin-platform-ks@1.2.0 -D
 ```
 
 ```javascript
@@ -67,3 +67,8 @@ if (process.TARO_ENV === 'ks') {
 - 截止2021-05-21:：template/import快手已经支持了。目前还会出现的问题是swiper失效问题。正在等待解决
 
 - 截止2021-06-10: 官方已修复，目前插件可正常使用。需要taro v3.0+
+  
+- 2021-08-21: 分叉版本，适用不同版本tarojs
+  - 1.0.x 适用老版本
+  - 1.2.x 适用tarojs v3.2.x版本
+  - 1.3.x 适用tarojs v3.3.x版本
