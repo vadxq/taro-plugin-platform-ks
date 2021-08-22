@@ -1,6 +1,6 @@
 {
   "name": "ks-demo",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "private": true,
   "description": "ks-demo",
   "templateInfo": {
@@ -56,7 +56,7 @@
     "eslint-config-taro": "3.2.2",
     "eslint-plugin-vue": "^7.0.0",
     "stylelint": "9.3.0",
-    "taro-plugin-platform-ks": "^0.1.0",
+    "taro-plugin-platform-ks": "1.2.0",
     "typescript": "^4.1.0",
     "vue-loader": "^16.0.0-beta.8"
   }
