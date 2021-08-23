@@ -35,6 +35,24 @@ npm i taro-plugin-platform-ks -D
 yarn add taro-plugin-platform-ks -D
 ```
 
+or
+
+```bash
+# in package.json
+
+{
+  ...
+  "taro-plugin-platform-ks": "~1.3.0"
+  ...
+}
+
+# bash
+
+yarn
+#or
+npm i
+```
+
 ```javascript
 const config = {
   plugins: [
@@ -69,6 +87,6 @@ if (process.TARO_ENV === 'ks') {
 - 截止2021-06-10: 官方已修复，目前插件可正常使用。需要taro v3.0+
 
 - 2021-08-21: 分叉版本，适用不同版本tarojs
-  - 1.0.x 适用老版本
-  - 1.2.x 适用tarojs v3.2.x版本
-  - 1.3.x 适用tarojs v3.3.x版本
+  - [1.0.x](https://github.com/vadxq/taro-plugin-platform-ks/tree/1.0.0) 适用老版本
+  - [1.2.x](https://github.com/vadxq/taro-plugin-platform-ks/tree/1.2.0) 适用tarojs v3.2.x版本
+  - [1.3.x](https://github.com/vadxq/taro-plugin-platform-ks) [当前版本]适用tarojs v3.3.x版本
