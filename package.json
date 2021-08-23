@@ -27,8 +27,8 @@
     "url": "https://github.com/vadxq/taro-plugin-platform-ks/issues"
   },
   "dependencies": {
-    "@tarojs/service": "^3.2.2",
-    "@tarojs/shared": "^3.2.2"
+    "@tarojs/service": "~3.2.0",
+    "@tarojs/shared": "~3.2.0"
   },
   "devDependencies": {
     "rollup": "^2.45.2",
