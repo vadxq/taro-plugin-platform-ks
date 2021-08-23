@@ -35,6 +35,18 @@ npm i taro-plugin-platform-ks@1.2.0 -D
 yarn add taro-plugin-platform-ks@1.2.0 -D
 ```
 
+or
+
+```bash
+# in package.json
+{
+  ...
+  "taro-plugin-platform-ks": "~1.2.0"
+  ...
+}
+
+```
+
 ```javascript
 const config = {
   plugins: [
