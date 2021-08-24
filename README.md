@@ -5,6 +5,10 @@
 [![](https://img.shields.io/npm/dt/taro-plugin-platform-ks.svg?style=flat-square)](https://www.npmjs.com/package/taro-plugin-platform-ks)
 
 > tarojs 快手小程序平台插件 1.3.x 适用tarojs v3.3.x版本
+>
+>2021-08-24 停止维护啦～
+>
+> 请前往tarojs官方插件哟~[plugin-platform-kwai](https://github.com/NervJS/taro-plugin-platform-kwai)
 
 ## 目录
 
@@ -90,3 +94,6 @@ if (process.TARO_ENV === 'ks') {
   - [1.0.x](https://github.com/vadxq/taro-plugin-platform-ks/tree/1.0.0) 适用老版本
   - [1.2.x](https://github.com/vadxq/taro-plugin-platform-ks/tree/1.2.0) 适用tarojs v3.2.x版本
   - [1.3.x](https://github.com/vadxq/taro-plugin-platform-ks) [当前版本]适用tarojs v3.3.x版本
+
+- 2021-08-24: 项目停止维护，请移步tarojs官方插件哟～大佬们多多积极参与呀～
+  - [plugin-platform-kwai](https://github.com/NervJS/taro-plugin-platform-kwai)
